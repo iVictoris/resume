@@ -1,11 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Title = props => {
+import './title.css';
+
+const Title = ({name}) => {
   return (
-    <div>
-      
-    </div>
+    <header className='title'>
+      {name}
+    </header>
   )
 }
 
