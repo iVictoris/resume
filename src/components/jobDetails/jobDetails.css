@@ -1,0 +1,15 @@
+.job.details {
+}
+
+.job.item {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.job.item > header > * {
+  margin: 0;
+}
+
+.job.item:last-child {
+  border-bottom: none;
+}
