@@ -1,19 +1,21 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Avatar from '../avatar/avatar';
+import React from "react";
+import PropTypes from "prop-types";
+import Avatar from "../avatar/avatar";
 
-import './navbar.css';
+import "./navbar.css";
+import Sidedrawer from "../sidedrawer/sidedrawer";
 
 const Navbar = props => {
   return (
-    <div className='navbar'>
-      <Avatar />
+    <div className="navbar">
+      <div>
+        <Avatar />
+        <Sidedrawer />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-Navbar.propTypes = {
+Navbar.propTypes = {};
 
-}
-
-export default Navbar
+export default Navbar;

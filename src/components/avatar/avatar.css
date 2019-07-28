@@ -9,7 +9,4 @@
   border: 2px solid black;
   background-image: url('../../assets/avatar/avatar-sm.jpeg');
   background-position: center;
-  position: relative;
-  top: 12px;
-  z-index: 10;
 }
