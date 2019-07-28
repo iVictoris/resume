@@ -1,11 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Block = props => {
+import './block.css';
+
+const Block = ({children}) => {
   return (
-    <div>
-      
-    </div>
+    <section className='block'>
+      {children}
+    </section>
   )
 }
 
