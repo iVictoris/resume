@@ -4,12 +4,14 @@ import About from '../about/about';
 import WorkExperience from '../workExperience/workExperience';
 
 import './view.css';
+import EducationExperience from '../educationExperience/educationExperience';
 
 const View = props => {
   return (
     <div className='view w80c'>
       <About />
       <WorkExperience />
+      <EducationExperience />
       
     </div>
   )
