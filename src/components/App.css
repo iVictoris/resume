@@ -3,6 +3,10 @@
   min-width: 320px
 }
 
+ul {
+  padding-left: 30px;
+}
+
 .shrink {
   font-size: .65em;
 }
