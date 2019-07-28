@@ -6,7 +6,6 @@ import './avatar.css';
 const Avatar = props => {
   return (
     <div className='avatar'>
-      <img src='#' />
     </div>
   )
 }
