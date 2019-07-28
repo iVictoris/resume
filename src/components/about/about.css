@@ -1,0 +1,6 @@
+.about-flex {
+  display: flex;
+  justify-content: space-between;
+  font-size: .66em;
+  padding-bottom: 10px;
+}
