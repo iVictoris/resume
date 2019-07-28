@@ -4,6 +4,7 @@ import Block from '../block/block';
 import JobDetails from '../jobDetails/jobDetails';
 
 import './workExperience.css';
+import Title from '../title/title';
 
 const jobs = [
   {
@@ -65,7 +66,7 @@ const WorkExperience = props => {
   return (
     <div className='work experience'>
       <Block>
-        <header>Work Experience</header>
+        <Title  name='Work Experience' />
         <JobDetails data={jobs}/>
       </Block>
     </div>

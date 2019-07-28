@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Title from '../title/title';
 
 const EducationExperience = props => {
   return (
     <section className='education experience'>
-    <header>Education</header>
+    <Title name='Education'/>
       
     </section>
   )
