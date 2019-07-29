@@ -8,11 +8,10 @@ import EducationExperience from '../educationExperience/educationExperience';
 
 const View = props => {
   return (
-    <div className='view w80c'>
+    <div className='view center'>
       <About />
       <WorkExperience />
-      <EducationExperience />
-      
+      <EducationExperience />    
     </div>
   )
 }
