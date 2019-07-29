@@ -50,12 +50,12 @@ const EducationExperience = props => {
       <Title name="Education" />
       <section className="certificates shrink">
         <h3>Certificates:</h3>
-        <ul>{certs}</ul>
+        <ul className='shrink'>{certs}</ul>
       </section>
 
       <section className="school shrink">
         <h3>Degrees</h3>
-        <section className="details fx fdc">{school}</section>
+        <section className="details fx fdc shrink">{school}</section>
       </section>
     </section>
   );
