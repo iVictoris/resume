@@ -1,6 +1,11 @@
 .App {
   width: 100vw;
-  min-width: 320px
+  min-width: 320px;
+  font-size: .66em;
+}
+
+header {
+  font-size: 1.25em;
 }
 
 ul {
@@ -45,4 +50,18 @@ ul {
 
 .w80c {
   margin: 0 auto;
+}
+
+@media screen and (min-width: 425px) {
+  .App {
+    font-size: .80em;
+  }
+
+  .shrink {
+    font-size: .75em;
+  }
+
+  header {
+    font-size: 1em;
+  }
 }
