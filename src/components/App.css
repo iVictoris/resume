@@ -2,6 +2,7 @@
   width: 100vw;
   min-width: 320px;
   font-size: .66em;
+  background-color: white;
 }
 
 header {
@@ -44,11 +45,11 @@ ul {
   align-items: flex-end;
 }
 
-.w80, .w80c {
+.w80 {
   width: 80%;
 }
 
-.w80c {
+.center {
   margin: 0 auto;
 }
 
@@ -63,5 +64,17 @@ ul {
 
   header {
     font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .App {
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .App {
+    display: flex;
   }
 }
