@@ -1,0 +1,15 @@
+.contact.info {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact.info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+
+  .contact.info > div {
+    padding-bottom: 2px;
+  }
+}
