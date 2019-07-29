@@ -4,6 +4,7 @@ import Avatar from "../avatar/avatar";
 
 import "./navbar.css";
 import Sidedrawer from "../sidedrawer/sidedrawer";
+import ContactInfo from "../contactInfo/contactInfo";
 
 const Navbar = props => {
   return (
@@ -11,6 +12,7 @@ const Navbar = props => {
       <div>
         <Avatar />
         <Sidedrawer />
+        <ContactInfo />
       </div>
     </div>
   );
