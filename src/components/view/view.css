@@ -1,3 +1,13 @@
 .view {
-  
+  width: 80%;
+  background-color: white;
+  padding-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .view {
+    width: 55%;
+    padding: 10px;
+    padding-bottom: 0;
+  }
 }

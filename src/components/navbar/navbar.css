@@ -6,7 +6,6 @@
   background-color: rgba(25, 147, 218, 0.925);
   padding-bottom: 5px;
   padding-top: 5px;
-  margin-bottom: 10px;
 }
 
 .navbar > div {
@@ -18,5 +17,22 @@
 @media screen and (min-width: 425px) {
   .navbar {
     height: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    width: 20%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .navbar > div {
+    flex-direction: column;
+    margin-top: 125px;
+    width: 80%;
+    height: 32%;
   }
 }
