@@ -11,6 +11,7 @@
   background-position: center;
   background-repeat: none;
   background-size: cover;
+  box-sizing: content-box;
 }
 
 @media screen and (min-width: 425px) {
@@ -18,5 +19,13 @@
     background-image: url('../../assets/avatar/avatar-md.jpg');
     height: 75px;
     width: 75px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .avatar {
+    background-image: url('../../assets/avatar/avatar-lg.jpeg');
+    height: 150px;
+    width: 150px;
   }
 }
