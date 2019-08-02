@@ -1,11 +1,14 @@
 .navbar {
-  height: 25px;
+  height: 3vh;
   width: 100vw;
   display: flex;
   justify-content: flex-end;
   background-color: rgba(25, 147, 218, 0.925);
   padding-bottom: 5px;
   padding-top: 5px;
+  overflow-y: visible;
+  z-index: 5;
+  position: absolute;
 }
 
 .navbar > div {
@@ -16,7 +19,17 @@
 
 @media screen and (min-width: 425px) {
   .navbar {
-    height: 30px;
+    height: 5vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    background-color: rgba(25, 147, 218);
+  }
+
+  .navbar > div {
+    width: 55%;
   }
 }
 
@@ -27,12 +40,13 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    position: initial;
   }
 
   .navbar > div {
     flex-direction: column;
     margin-top: 125px;
     width: 80%;
-    height: 32%;
+    height: 35%;
   }
 }

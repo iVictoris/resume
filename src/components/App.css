@@ -1,5 +1,6 @@
 .App {
   width: 100vw;
+  height: 100vh;
   min-width: 320px;
   font-size: .66em;
   background-color: white;
@@ -76,5 +77,20 @@ ul {
 @media screen and (min-width: 1024px) {
   .App {
     display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .App {
+    background-color: #fff;
+    overflow: hidden;
+  }
+
+  header {
+    font-size: 1.75em;
+  }
+
+  .shrink {
+    font-size: 1em;
   }
 }
