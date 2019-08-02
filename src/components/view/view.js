@@ -1,23 +1,21 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import About from '../about/about';
-import WorkExperience from '../workExperience/workExperience';
+import React from "react";
+import PropTypes from "prop-types";
+import About from "../about/about";
+import WorkExperience from "../workExperience/workExperience";
 
-import './view.css';
-import EducationExperience from '../educationExperience/educationExperience';
+import "./view.css";
+import EducationExperience from "../educationExperience/educationExperience";
 
 const View = props => {
   return (
-    <div className='view center'>
+    <div className="view center">
       <About />
       <WorkExperience />
-      <EducationExperience />    
+      <EducationExperience />
     </div>
-  )
-}
+  );
+};
 
-View.propTypes = {
+View.propTypes = {};
 
-}
-
-export default View
+export default View;
